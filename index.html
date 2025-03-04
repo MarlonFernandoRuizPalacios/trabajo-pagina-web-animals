@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Maravilla Animal</title>
+    <link rel="stylesheet" href="./src/style.css">
+  </head>
+  <body>
+    <header class="header">
+      <h1>Maravilla Animal</h1>
+      <button class="menu-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="navbar">
+          <button class="close-menu" aria-label="Cerrar menú">✖</button>
+          <ul class="nav-links">
+              <li><a href="#inicio">Inicio</a></li>
+              <li><a href="#videos">Videos</a></li>
+              <li><a href="#blog">Blog</a></li>
+              <li><a href="#contacto">Contacto</a></li>
+          </ul>
+      </nav>
+    </header>
+
+    <main class="main-content">
+      <article class="post">
+        <section class="post-section">
+          <h3>El Maravilloso Mundo Animal</h3>
+          <p>Descubre la belleza y diversidad de los animales en su hábitat natural.</p>
+        </section>
+        
+        <section class="post-section">
+          <h3>Video Destacado</h3>
+          <video width="100%" controls>
+            <source src="./public/corto pagina.mp4" type="video/mp4">
+            Tu navegador no soporta la etiqueta de video.
+          </video>
+        </section>
+      </article>
+      
+      <aside class="sidebar">
+          <h3>Artículos Relacionados</h3>
+          <ul>
+              <li><a href="#">El hábitat de los felinos</a></li>
+              <li><a href="#">Las aves migratorias</a></li>
+          </ul>
+      </aside>
+    </main>
+
+    <footer class="footer">
+      <p>© 2025 Maravilla Animal. Todos los derechos reservados.</p>
+      <address>Contacto: <a href="mailto:info@maravillaanimal.com">info@maravillaanimal.com</a></address>
+    </footer>
+
+    <script src="./src/main.js" defer></script>
+  </body>
+</html>
